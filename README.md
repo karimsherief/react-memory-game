@@ -1,1 +1,1 @@
-(Preview)[https://app.netlify.com/sites/react-mgame/overview]
+[Preview](https://app.netlify.com/sites/react-mgame/overview)
