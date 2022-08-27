@@ -1,3 +1,3 @@
 # React Memory Game
 
-[Preview](https://app.netlify.com/sites/react-mgame/overview)
+[Preview](https://react-mgame.netlify.app/)
