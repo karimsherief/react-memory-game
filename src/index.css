@@ -69,6 +69,10 @@ button:hover {
   z-index: -1;
 }
 
+.card--flipped,
+.disabled {
+  pointer-events: none;
+}
 
 .card__image--back {
   transition-delay: .3s;
@@ -89,10 +93,6 @@ button:hover {
 img {
   width: 100%;
   display: block;
-}
-
-.disabled {
-  pointer-events: none;
 }
 
 p {

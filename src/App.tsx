@@ -27,7 +27,7 @@ export default function App() {
     choiceOne.src === choiceTwo.src;
 
   function handleClick(card: CardsProps) {
-    choiceOne ? setChoiceTwo(card) : setChoiceOne(() => card);
+    choiceOne ? setChoiceTwo(card) : setChoiceOne(card);
   }
 
   useEffect(() => {
@@ -50,7 +50,6 @@ export default function App() {
       }, 1200);
 
       setTurns((prev) => prev + 1);
-      
     }
   }, [choiceOne, choiceTwo]);
 
@@ -69,7 +68,7 @@ export default function App() {
             card={card}
             handleClick={handleClick}
             flipped={card === choiceOne || card === choiceTwo || card.matched}
-            disabled={disabled}
+            disabled={disabled || card === choiceOne || card === choiceTwo}
           />
         ))}
       </div>
