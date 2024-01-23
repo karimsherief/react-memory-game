@@ -1,6 +1,6 @@
 const Cards = [
     {
-        src: "./images/heart-1.png",
+        src: "./images/helmet-1.png",
         matched: false,
     },
     {

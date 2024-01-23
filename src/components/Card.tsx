@@ -25,7 +25,7 @@ export default function Card({
         className="card__image card__image--front"
       />
       <img
-        src="/images/cover.png"
+        src="./images/cover.png"
         alt="card"
         className="card__image card__image--back"
       />
